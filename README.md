@@ -49,7 +49,7 @@ The framework covers **47 meaningful API tests** across 8 test suites:
 | Authentication | 5 | ✓ Token creation, invalid credentials, format validation |
 | Create Booking | 7 | ✓ Valid creation, data validation, error handling |
 | Retrieve Booking | 6 | ✓ Get by ID, list, error cases |
-| Update Booking (PUT) | 7 | ✓ Full update, persistence, auth validation |
+| Update Booking (PUT) | 6 | ✓ Full update, persistence, auth validation |
 | Partial Update (PATCH) | 5 | ✓ Field-specific updates, unchanged fields preservation |
 | Delete Booking | 6 | ✓ Deletion, auth validation, error handling |
 | Negative Testing | 8 | ✓ Edge cases, invalid inputs, API behavior validation |
@@ -327,7 +327,7 @@ expect(response.status()).toBe(404);
 - Authentication: 5
 - Create Booking: 7
 - Retrieve Booking: 6
-- Update Booking: 7
+- Update Booking: 6
 - Partial Update: 5
 - Delete Booking: 6
 - Negative Testing: 8
